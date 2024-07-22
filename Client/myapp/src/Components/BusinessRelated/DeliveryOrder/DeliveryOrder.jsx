@@ -665,6 +665,7 @@ const handleBankCode =(code,accoid,name) =>{
         //console.log(details.last_details_data[0])
         setTenderDetails(details.last_details_data[0])
         let Carporate_Sale_No=formData.Carporate_Sale_No;
+        console.log('Change data',"ChangeData")
         //console.log("")
         if(Carporate_Sale_No!=0)
         {
