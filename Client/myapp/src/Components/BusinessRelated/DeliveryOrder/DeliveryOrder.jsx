@@ -662,7 +662,7 @@ const handleBankCode =(code,accoid,name) =>{
     }
     const handleTenderDetailsFetched = (details) => {
         debugger
-        console.log(details.last_details_data[0])
+        //console.log(details.last_details_data[0])
         setTenderDetails(details.last_details_data[0])
         let Carporate_Sale_No=formData.Carporate_Sale_No;
         //console.log("")
